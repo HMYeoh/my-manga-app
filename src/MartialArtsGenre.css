@@ -1,0 +1,22 @@
+.martialArtsGenre {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 80px;
+    margin-top: 20px;
+}
+
+.martialArtsGenre img.openBookImage {
+    width: 35px; 
+    height: 35px; 
+    margin-top: 3px;
+    margin-right: 15px; 
+}
+
+.martialArtsGenre h3 {
+    font-family: 'Afacad Flux', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    margin: 0; 
+}

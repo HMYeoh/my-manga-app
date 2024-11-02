@@ -1,0 +1,109 @@
+.manga-container {
+    font-family: 'Afacad Flux', sans-serif;
+    padding: 20px;
+}
+
+.manga-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image-container {
+    background-color: #282c34;
+    padding: 10px;
+    border-radius: 12px;
+}
+  
+.manga-image img {
+    width: 300px;
+    border-radius: 8px;
+}
+  
+.manga-details {
+    margin-left: 30px;
+}
+
+.manga-details h3 {
+    font-family: 'Afacad Flux', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    margin: 0; 
+    margin-top: 30px;
+}
+
+.genre-tags {
+    margin-top: 30px;
+}
+  
+.genre-tags span {
+    background-color: #282c34;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: white;
+    font-size: 15px;
+ }
+  
+.rating-bookmark {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: flex-start; /* Ensures left alignment */
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.rating span {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.status-buttons {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center;
+}
+
+.status-buttons button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+}
+  
+.ongoing {
+    background-color: #28a745;
+    color: white;
+    font-family: 'Afacad Flux', sans-serif;
+}
+  
+.read {
+    background-color: #ff6b35;
+    color: white;
+    font-family: 'Afacad Flux', sans-serif;
+}
+  
+.synopsis {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+}

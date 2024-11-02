@@ -1,0 +1,88 @@
+/* Genre.css */
+.genre {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 80px;
+    margin-top: 20px;
+}
+
+.genre img.openBookImage {
+  width: 35px; 
+  height: 35px; 
+  margin-top: 3px;
+  margin-right: 15px; 
+}
+
+.genre h3 {
+  font-family: 'Afacad Flux', sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 500;
+  margin: 0; 
+}
+
+.genre-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 40px; 
+    margin-bottom: 100px;
+}
+
+.genre-list {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    border: 2px solid #716e6e; 
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: #252222; 
+    width: 800px;
+}
+
+.genre-item {
+    color: white;
+    border-radius: 5px; 
+    margin: 10px; 
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    transition: background-color 0.3s; 
+}
+
+.genre-item:hover {
+    background-color: #d4d4d4; 
+    color: black;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footerLinks {
+    margin-top: 10px;
+  }
+  
+  .footerLinks a {
+    color: #61dafb;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: none;
+  }
